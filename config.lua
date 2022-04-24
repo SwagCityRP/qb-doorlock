@@ -176,36 +176,6 @@ Config.DoorList = {
 		pickable = true,
 		distance = 1.5
 	},
-	-- Prison Door 1
-	{
-		objName = 'prop_gate_prison_01',
-		objCoords  = vec3(1844.9, 2604.8, 44.6),
-		textCoords = vec3(1844.9, 2608.5, 48.0),
-		authorizedJobs = { 'police' },
-		locked = true,
-		pickable = false,
-		distance = 13
-	},
-	-- Prison Door 2
-	{
-		objName = 'prop_gate_prison_01',
-		objCoords  = vec3(1818.5, 2604.8, 44.6),
-		textCoords = vec3(1818.5, 2608.4, 48.0),
-		authorizedJobs = { 'police' },
-		locked = true,
-		pickable = false,
-		distance = 13
-	},
-	-- Prison Door 3
-	{
-		objName = 'prop_gate_prison_01',
-		objCoords = vec3(1799.237, 2616.303, 44.6),
-		textCoords = vec3(1795.941, 2616.969, 48.0),
-		authorizedJobs = { 'police' },
-		locked = true,
-		pickable = false,
-		distance = 10
-	},
 	------------------------------------------Always add new doors below this line for your bank robberies to work!!!---------------------------------
 				------------------------------------------End Fixed Doors!!!---------------------------------
 	-- Bureau Paleto Bay
